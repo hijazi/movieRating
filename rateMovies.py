@@ -14,7 +14,6 @@ def getRating( processedTitle ):
     html = data.read()
     dictData = json.loads(html)
     imbdRating = dictData['imdbRating']
-
     return imbdRating
 
 textFile = open("./yMList.txt", "r")
