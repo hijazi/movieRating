@@ -1,6 +1,5 @@
 #! /usr/bin/python2.7
 
-import random
 import json
 import urllib2
 #import ast
